@@ -9,4 +9,16 @@
 body {
     font-family: Open-sans, sans-serif;
     font-weight: 300;
+    color: #9acd32
+}
+
+h1, h2 {
+    font-family: Ubuntu, sans-serif;
+    letter-spacing: 3px;
+    color: #cd853f
+}
+
+#logo {
+    float: left;
+    font-size: 250%;
 }
