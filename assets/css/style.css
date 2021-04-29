@@ -49,3 +49,10 @@ h1, h2 {
 .active {
     border-bottom: 1px solid #9acd32;
 }
+
+/* introduction paragraph */
+
+#intro {
+    float: left;
+    width: 66%;
+}
