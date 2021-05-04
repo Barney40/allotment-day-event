@@ -84,3 +84,7 @@ th, td {
     float: right;
     width: 33%
 }
+
+footer {
+    float: left;
+}
