@@ -12,7 +12,7 @@ body {
     color: #9acd32
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: Ubuntu, sans-serif;
     letter-spacing: 3px;
     color: #cd853f
@@ -78,3 +78,9 @@ th, td {
     padding: 5px;          
 }
 
+/* videos */
+
+#videos {
+    float: right;
+    width: 33%
+}
