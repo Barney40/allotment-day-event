@@ -20,7 +20,7 @@ h1, h2, h3 {
 
 #logo {
     float: left;
-    font-size: 240%;
+    font-size: 240%;    
 }
 
 /* navigation links */
@@ -54,7 +54,7 @@ h1, h2, h3 {
 
 #intro {
     float: left;
-    width: 66%;
+    width: 100%;
 }
 
 /* table */
@@ -85,6 +85,26 @@ th, td {
     width: 33%
 }
 
+/* footer styling */
+
 footer {
-    float: left;
+    height: 150px;
 }
+
+/* social media links */
+
+.social-media {
+    text-align: center;
+}
+
+.social-media>li {
+    display: inline;
+}
+
+.social-media i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #9acd32
+}
+   
