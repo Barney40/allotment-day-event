@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu:wght@300&display=swap')
-
-* {
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu:wght@300&display=swap') * {
     margin: 0;
     padding: 0;
-    border: none;    
+    border: none;
 }
 
 body {
@@ -12,7 +10,9 @@ body {
     color: #9acd32
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: Ubuntu, sans-serif;
     letter-spacing: 3px;
     color: #cd853f
@@ -20,7 +20,8 @@ h1, h2, h3 {
 
 #logo {
     float: left;
-    font-size: 240%;    
+    font-size: 240%;
+    margin-left: 20px;
 }
 
 /* navigation links */
@@ -29,13 +30,13 @@ h1, h2, h3 {
     font-size: 100%;
     letter-spacing: 3px;
     display: flex;
-    }
+}
 
 #menu li {
     float: right;
     list-style-type: none;
     margin-right: 20px;
-    }
+}
 
 #menu a {
     text-decoration: none;
@@ -55,34 +56,39 @@ h1, h2, h3 {
 #intro {
     float: left;
     width: 100%;
+    margin-left: 20px;
 }
 
 /* table */
 
 #table {
-    float: left; 
+    float: left;
     width: 66%;
+    margin-left: 20px;
 }
 
 tr {
     display: grid;
     grid-template-columns: 0.6fr 1.5fr 1fr;
-    }
+}
 
-tr, td, th {
+tr,
+td,
+th {
     text-align: left;
 }
 
-th, td {
+th,
+td {
     border: 1px solid #cd853f;
-    padding: 5px;          
+    padding: 5px;
 }
 
 /* videos */
 
 #videos {
     float: right;
-    width: 33%
+    width: 30%
 }
 
 /* footer styling */
@@ -107,4 +113,3 @@ footer {
     padding: 5%;
     color: #9acd32
 }
-   
