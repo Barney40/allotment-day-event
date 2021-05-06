@@ -27,7 +27,7 @@ h3 {
 /* navigation links */
 
 #menu {
-    font-size: 85%;
+    font-size: 80%;
     letter-spacing: 3px;
     display: flex;
 }
@@ -35,7 +35,7 @@ h3 {
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 20px;
+    margin-right: 20px;  
 }
 
 #menu a {
