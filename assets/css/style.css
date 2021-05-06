@@ -27,7 +27,7 @@ h3 {
 /* navigation links */
 
 #menu {
-    font-size: 100%;
+    font-size: 85%;
     letter-spacing: 3px;
     display: flex;
 }
@@ -112,4 +112,11 @@ footer {
     margin: 1%;
     padding: 5%;
     color: #9acd32
+}
+
+/* speaker images */
+
+img {
+    width: 288px;
+    height: 192px;
 }
