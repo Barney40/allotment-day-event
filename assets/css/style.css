@@ -35,7 +35,7 @@ h3 {
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 20px;  
+    margin-right: 20px;
 }
 
 #menu a {
@@ -119,4 +119,17 @@ footer {
 img {
     width: 288px;
     height: 192px;
+}
+
+/* speaker page styling */
+
+.speaker {
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+#speaker-info {
+    display: inline-block;
+    width: 50%;     
 }
