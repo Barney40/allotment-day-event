@@ -133,3 +133,72 @@ img {
     display: inline-block;
     width: 50%;     
 }
+
+/* register form */
+
+div.form {
+    display: block;
+    text-align: center;    
+}
+
+form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;    
+    width: 65%;  
+}
+
+fieldset {
+    border-color: #cd853f;
+    border-radius: 4px;
+}
+
+legend {
+    font-weight: bold;
+    color: #cd853f;
+}
+
+input[type=text] {
+    border: 2px solid #cd853f;
+    border-radius: 4px;
+    width: 30%   
+}
+
+input[type=email] {
+    border: 2px solid #cd853f;
+    border-radius: 4px;
+    width: 30%
+}
+
+input:hover {
+    background-color: #c0ec68;
+}
+
+input {
+    color: #cd853f;
+    outline: none;
+}
+
+label {
+    width: 140px;
+    display: inline-block; 
+}
+
+#attendance label {
+    width: 300px;
+}
+
+#experience label {
+    width: 300px;
+}
+
+#contact label {
+    width: 300px;
+}
+
+
+
+
+
+
