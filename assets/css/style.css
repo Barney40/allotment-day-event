@@ -197,7 +197,16 @@ label {
     width: 300px;
 }
 
+/* find us */
 
+#map {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;    
+    width: 65%;  
+    height: 300px;    
+}
 
 
 
