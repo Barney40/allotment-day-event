@@ -208,6 +208,15 @@ label {
     height: 300px;    
 }
 
+h3 {
+    text-decoration: underline;
+}
+h4 {
+    color: #cd853f;
+}
 
+#icon {
+    color: #cd853f;
+}
 
 
