@@ -56,7 +56,29 @@ h3 {
 #intro {
     float: left;
     width: 100%;
-    margin-left: 20px;
+    margin-left: 20px;   
+}
+
+/* hyperlinks */
+
+#intro p a {
+    color: #006400;
+    text-decoration: none;
+}
+
+#intro p a:hover {
+    text-decoration: underline;
+}
+
+#register a button {    
+    color: #006400;
+    display: inline-block;
+    background-color: white;
+    border-color: #006400;
+}
+
+#register a button:hover {
+    background-color: #9acd32;
 }
 
 /* table */
