@@ -21,7 +21,7 @@ h3 {
 #logo {
     float: left;
     font-size: 240%;
-    margin-left: 20px;    
+    margin-left: 20px;
 }
 
 /* navigation links */
@@ -56,7 +56,7 @@ h3 {
 #intro {
     float: left;
     width: 100%;
-    margin-left: 20px;   
+    margin-left: 20px;
 }
 
 /* hyperlinks */
@@ -70,7 +70,7 @@ h3 {
     text-decoration: underline;
 }
 
-#register a button {    
+#register a button {
     color: #006400;
     display: inline-block;
     background-color: white;
@@ -85,7 +85,7 @@ h3 {
 
 #table {
     float: left;
-    width: 66%;    
+    width: 66%;
     margin-left: 20px;
 }
 
@@ -154,6 +154,7 @@ img {
 #speaker-info {
     display: inline-block;
     width: 50%;
+    padding-left: 10px;
 }
 
 /* register form */
@@ -217,6 +218,17 @@ label {
 
 #contact label {
     width: 300px;
+}
+
+#register {
+    color: #006400;
+    display: inline-block;
+    background-color: white;
+    border-color: #006400;
+}
+
+#register:hover {
+    background-color: #9acd32;
 }
 
 /* find us */
