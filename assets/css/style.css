@@ -220,11 +220,20 @@ label {
     width: 300px;
 }
 
+#contact-method {
+    color: #006400;
+    border-color: #006400;
+}
+
+#contact-method:hover {
+    background-color: #9acd32;
+}
+
 #register {
     color: #006400;
     display: inline-block;
     background-color: white;
-    border-color: #006400;
+    border-color: #006400;   
 }
 
 #register:hover {
