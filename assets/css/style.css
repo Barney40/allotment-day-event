@@ -56,7 +56,6 @@ h3 {
 /* introduction paragraph */
 
 #intro {
-    float: left;
     width: 100%;
 }
 
@@ -126,24 +125,29 @@ td {
 
 /* footer styling */
 
-footer {
-    height: 150px;
+footer p {
+    text-align: center;
+    color: #006400;  
+    display: inline-flex;
+    margin-top: 50px;
 }
 
 /* social media links */
 
 .social-media {
-    text-align: center;
+    text-align: right;
 }
 
 .social-media>li {
-    display: inline;
+    display: inline;    
 }
 
 .social-media i {
     font-size: 160%;
-    margin: 1%;
-    padding: 5%;
+    margin: 1px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-block-end: auto;
     color: #006400;
 }
 
@@ -170,12 +174,7 @@ img {
 
 /* register form */
 
-div.form {
-    display: block;
-    text-align: center;
-}
-
-form {
+.form {
     display: block;
     margin-left: auto;
     margin-right: auto;
