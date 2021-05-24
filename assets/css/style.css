@@ -21,10 +21,9 @@ h3 {
 /* logo */
 
 #logo {
-    float: left;
     font-size: 240%;
-    margin-left: 20px;
     background-color: #d2ec9d;
+    text-align: center;
 }
 
 /* navigation links */
@@ -32,13 +31,13 @@ h3 {
 #menu {
     font-size: 80%;
     letter-spacing: 3px;
-    display: flex;
+    text-align: center;
 }
 
 #menu li {
-    float: right;
     list-style-type: none;
-    margin-right: 20px;
+    margin-left: 20px;
+    display: inline;
 }
 
 #menu a {
@@ -59,7 +58,6 @@ h3 {
 #intro {
     float: left;
     width: 100%;
-    margin-left: 20px;
 }
 
 /* hyperlinks */
@@ -87,9 +85,7 @@ h3 {
 /* table */
 
 #table {
-    float: left;
-    width: 66%;
-    margin-left: 20px;
+    width: 700px;
 }
 
 tr {
@@ -121,205 +117,198 @@ td {
     text-align: left;
 }
 
-/* read more button click/hover */
+/* videos */
 
-.active,
-.collapsible:hover {
+#videos {
+    width: 300px;
+    display: inline-block;
+}
+
+/* footer styling */
+
+footer {
+    height: 150px;
+}
+
+/* social media links */
+
+.social-media {
+    text-align: center;
+}
+
+.social-media>li {
+    display: inline;
+}
+
+.social-media i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #006400;
+}
+
+/* speaker images */
+
+img {
+    width: 288px;
+    height: 192px;
+}
+
+/* speaker page styling */
+
+.speaker {
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+#speaker-info {
+    display: inline-block;
+    width: 50%;
+    padding-left: 10px;
+}
+
+/* register form */
+
+div.form {
+    display: block;
+    text-align: center;
+}
+
+form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 65%;
+}
+
+fieldset {
+    border-color: #cd853f;
+    border-radius: 4px;
+}
+
+legend {
+    font-weight: bold;
+    color: #cd853f;
+}
+
+input[type=text] {
+    border: 2px solid #cd853f;
+    border-radius: 4px;
+    width: 30%
+}
+
+input[type=email] {
+    border: 2px solid #cd853f;
+    border-radius: 4px;
+    width: 30%
+}
+
+input:hover {
     background-color: #c0ec68;
 }
 
-    /* videos */
+input {
+    color: #cd853f;
+    outline: none;
+}
 
-    #videos {
-        float: right;
-        width: 30%
-    }
+label {
+    width: 140px;
+    display: inline-block;
+}
 
-    /* footer styling */
+#attendance label {
+    width: 300px;
+}
 
-    footer {
-        height: 150px;
-    }
+#experience label {
+    width: 300px;
+}
 
-    /* social media links */
+#contact label {
+    width: 300px;
+}
 
-    .social-media {
-        text-align: center;
-    }
+#contact-method {
+    color: #006400;
+    border-color: #006400;
+}
 
-    .social-media>li {
-        display: inline;
-    }
+#contact-method:hover {
+    background-color: #9acd32;
+}
 
-    .social-media i {
-        font-size: 160%;
-        margin: 1%;
-        padding: 5%;
-        color: #006400;
-    }
+#register {
+    color: #006400;
+    display: inline-block;
+    background-color: white;
+    border-color: #006400;
+}
 
-    /* speaker images */
+#register:hover {
+    background-color: #9acd32;
+}
 
-    img {
-        width: 288px;
-        height: 192px;
-    }
+/* find us */
 
-    /* speaker page styling */
+#map {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 65%;
+    height: 300px;
+}
 
-    .speaker {
-        width: 50%;
-        height: 50%;
-        float: left;
-    }
+h3 {
+    text-decoration: underline;
+}
 
-    #speaker-info {
-        display: inline-block;
-        width: 50%;
-        padding-left: 10px;
-    }
+h4 {
+    color: #cd853f;
+}
 
-    /* register form */
+#icon {
+    color: #cd853f;
+}
 
-    div.form {
-        display: block;
-        text-align: center;
-    }
+#left-div {
+    width: 50%;
+    height: 100px;
+    float: left;
+    margin-left: 17.5%;
+}
 
-    form {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: left;
-        width: 65%;
-    }
+#right-div {
+    width: 50%;
+    height: 100px;
+    margin-left: 50%;
+}
 
-    fieldset {
-        border-color: #cd853f;
-        border-radius: 4px;
-    }
+#travel {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 65%;
+    padding-top: 50px;
+}
 
-    legend {
-        font-weight: bold;
-        color: #cd853f;
-    }
+#accessibility {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 65%;
+    padding-top: 5px;
+}
 
-    input[type=text] {
-        border: 2px solid #cd853f;
-        border-radius: 4px;
-        width: 30%
-    }
+.link {
+    color: #9acd32;
+}
 
-    input[type=email] {
-        border: 2px solid #cd853f;
-        border-radius: 4px;
-        width: 30%
-    }
-
-    input:hover {
-        background-color: #c0ec68;
-    }
-
-    input {
-        color: #cd853f;
-        outline: none;
-    }
-
-    label {
-        width: 140px;
-        display: inline-block;
-    }
-
-    #attendance label {
-        width: 300px;
-    }
-
-    #experience label {
-        width: 300px;
-    }
-
-    #contact label {
-        width: 300px;
-    }
-
-    #contact-method {
-        color: #006400;
-        border-color: #006400;
-    }
-
-    #contact-method:hover {
-        background-color: #9acd32;
-    }
-
-    #register {
-        color: #006400;
-        display: inline-block;
-        background-color: white;
-        border-color: #006400;
-    }
-
-    #register:hover {
-        background-color: #9acd32;
-    }
-
-    /* find us */
-
-    #map {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: left;
-        width: 65%;
-        height: 300px;
-    }
-
-    h3 {
-        text-decoration: underline;
-    }
-
-    h4 {
-        color: #cd853f;
-    }
-
-    #icon {
-        color: #cd853f;
-    }
-
-    #left-div {
-        width: 50%;
-        height: 100px;
-        float: left;
-        margin-left: 17.5%;
-    }
-
-    #right-div {
-        width: 50%;
-        height: 100px;
-        margin-left: 50%;
-    }
-
-    #travel {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: left;
-        width: 65%;
-        padding-top: 50px;
-    }
-
-    #accessibility {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: left;
-        width: 65%;
-        padding-top: 5px;
-    }
-
-    .link {
-        color: #9acd32;
-    }
-
-    .link:hover {
-        font-weight: bold;
-    }
+.link:hover {
+    font-weight: bold;
+}
