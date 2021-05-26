@@ -24,9 +24,9 @@ h2 {
     text-align: center;
 }
 
-/* logo */
+/* title */
 
-#logo {
+.title {
     font-size: 240%;
     background-color: #d2ec9d;
     text-align: center;
@@ -44,7 +44,7 @@ h2 {
     list-style-type: none;
     padding-left: 10px;
     padding-right: 10px;
-    display: inline;    
+    display: inline;
 }
 
 #menu a {
