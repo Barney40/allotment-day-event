@@ -16,9 +16,8 @@ navigation without having to use forward and back buttons. With added text decor
 what page they are currenty viewing (underlined). Underline is also displayed when you mouse over a page link to 
 enhance UI.
 
-- Website Logo - Positioned top-left of each page and providing a link to the Home page, following this standard
-reduces confusion and therfore matches UI to user's expectations. The logo is visually distinct from other
-headings and text being styled with a background colour.
+- The site/page title is visually distinct from other headings and text being styled with a background colour. It
+provides a link to the home page..........
 
 - Introductory Paragraph - This clearly and concisely states when and where the event is being held, who the 
 event is aimed at and what the event offers. Hyperlinks are included to take the user to the 'Find Us' page should

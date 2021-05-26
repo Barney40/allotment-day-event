@@ -11,11 +11,17 @@ body {
 }
 
 h1,
-h2,
 h3 {
     font-family: Ubuntu, sans-serif;
     letter-spacing: 3px;
-    color: #cd853f
+    color: #cd853f;
+}
+
+h2 {
+    font-family: Ubuntu, sans-serif;
+    letter-spacing: 3px;
+    color: #cd853f;
+    text-align: center;
 }
 
 /* logo */
@@ -36,8 +42,9 @@ h3 {
 
 #menu li {
     list-style-type: none;
-    margin-left: 20px;
-    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline;    
 }
 
 #menu a {
@@ -127,7 +134,7 @@ td {
 
 footer p {
     text-align: center;
-    color: #006400;  
+    color: #006400;
     display: inline-flex;
     margin-top: 50px;
 }
@@ -139,7 +146,7 @@ footer p {
 }
 
 .social-media>li {
-    display: inline;    
+    display: inline;
 }
 
 .social-media i {
@@ -160,16 +167,28 @@ img {
 
 /* speaker page styling */
 
-.speaker {
-    width: 50%;
-    height: 50%;
-    float: left;
+div.left {
+    height: 250px;
+    width: 700px;
+}
+
+div.right {
+    height: 250px;
+    width: 450px;
+}
+
+.container {
+    height: 275px;
+    width: 1000px;
+    display: inline-flex;
 }
 
 #speaker-info {
-    display: inline-block;
-    width: 50%;
     padding-left: 10px;
+    position: absolute;
+    width: 288px;
+    display: inline-block;
+    margin-top: 0px;
 }
 
 /* register form */
@@ -214,8 +233,9 @@ input {
 }
 
 label {
-    width: 140px;
+    width: 100px;
     display: inline-block;
+    padding-left: 20px;
 }
 
 #attendance label {
