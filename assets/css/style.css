@@ -114,23 +114,10 @@ td {
     padding: 5px;
 }
 
-/* read more button */
-
-.collapsible {
-    background-color: #d2ec9d;
-    color: #cd853f;
-    cursor: pointer;
-    padding: 10px;
-    width: 100%;
-    border: none;
-    text-align: left;
-}
-
 /* videos */
 
 #videos {
     width: 400px;
-    padding-left: 20px;
     float: right;
 }
 
