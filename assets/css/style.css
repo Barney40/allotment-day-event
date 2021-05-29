@@ -97,9 +97,14 @@ h2 {
     width: 700px;
 }
 
+table tr td p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 tr {
     display: grid;
-    grid-template-columns: 0.6fr 1.5fr 1fr;
+    grid-template-columns: 0.6fr 1fr 1.5fr;
 }
 
 tr,
