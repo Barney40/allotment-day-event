@@ -79,16 +79,19 @@ h2 {
 
 #register a button {
     color: #006400;
-    display: inline-block;
     background-color: white;
     border-color: #006400;
 }
 
 #register a button:hover {
-    background-color: #9acd32;
+    background-color: #c0ec68;
 }
 
 /* table */
+
+.schedule div {
+    display: inline-block;
+}
 
 #table {
     width: 700px;
@@ -126,8 +129,9 @@ td {
 /* videos */
 
 #videos {
-    width: 300px;
-    display: inline-block;
+    width: 400px;
+    padding-left: 20px;
+    float: right;
 }
 
 /* footer styling */
