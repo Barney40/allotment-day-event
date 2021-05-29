@@ -128,30 +128,38 @@ td {
 
 /* footer styling */
 
-footer p {
+footer {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+footer span {
     text-align: center;
     color: #006400;
-    display: inline-flex;
     margin-top: 50px;
+    float: left;
 }
 
 /* social media links */
 
 .social-media {
-    text-align: right;
+    text-align: center;
 }
 
 .social-media>li {
-    display: inline;
+  display: inline;
 }
 
 .social-media i {
     font-size: 160%;
-    margin: 1px;
-    margin-left: 35px;
+    margin: 25px;
+    margin: 1px; 
+    margin-left: 35px; 
     margin-right: 35px;
     margin-block-end: auto;
     color: #006400;
+    margin-top: 24px;
 }
 
 /* speaker images */
@@ -163,27 +171,11 @@ img {
 
 /* speaker page styling */
 
-div.left {
-    height: 250px;
-    width: 700px;
-}
-
-div.right {
-    height: 250px;
-    width: 450px;
-}
-
-.container {
-    height: 275px;
-    width: 1000px;
-    display: inline-flex;
-}
-
 #speaker-info {
     padding-left: 10px;
     position: absolute;
-    width: 288px;
     display: inline-block;
+    width: 288px;
     margin-top: 0px;
 }
 
@@ -325,4 +317,16 @@ h4 {
 
 .link:hover {
     font-weight: bold;
+}
+
+
+footer div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: baseline;
+}
+
+footer div p {
+    margin-bottom: 3px;
 }
