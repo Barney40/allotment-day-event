@@ -77,6 +77,10 @@ h2 {
     text-decoration: underline;
 }
 
+#register {
+    display: inline-block;
+}
+
 #register a button {
     color: #006400;
     background-color: white;
@@ -142,10 +146,6 @@ footer span {
 }
 
 /* social media links */
-
-.social-media {
-    text-align: center;
-}
 
 .social-media>li {
   display: inline;
