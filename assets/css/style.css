@@ -127,6 +127,7 @@ td {
 
 #videos {
     width: 400px;
+    display: inline;
     float: right;
 }
 
@@ -145,17 +146,28 @@ footer span {
     float: left;
 }
 
+footer div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: baseline;
+}
+
+footer div p {
+    margin-bottom: 3px;
+}
+
 /* social media links */
 
 .social-media>li {
-  display: inline;
+    display: inline;
 }
 
 .social-media i {
     font-size: 160%;
     margin: 25px;
-    margin: 1px; 
-    margin-left: 35px; 
+    margin: 1px;
+    margin-left: 35px;
     margin-right: 35px;
     margin-block-end: auto;
     color: #006400;
@@ -171,7 +183,7 @@ img {
 
 /* speaker page styling */
 
-#speaker-info {
+.speaker-info {
     padding-left: 10px;
     position: absolute;
     display: inline-block;
@@ -319,14 +331,15 @@ h4 {
     font-weight: bold;
 }
 
+/* Media queries */
+/* for larger to medium screens size from 1150px wide and down */
+@media screen and (max-width: 1150px) {
 
-footer div {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: baseline;
-}
+    #videos,
+    #table {
+       
 
-footer div p {
-    margin-bottom: 3px;
+
+
+
 }
