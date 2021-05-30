@@ -175,7 +175,15 @@ From line 97, column 1; to line 97, column 8
 
 Fix: Placed footer inside body.
 
-CSS ()
+CSS (2 Errors)
+
+1. 5		Parse Error * { margin: 0; padding: 0; border: none; }
+
+Fix: 
+
+2. 172	.social-media i	Property margin-block-end doesn't exist : auto
+
+Fix: 
 
 
 - Unfixed Bugs
