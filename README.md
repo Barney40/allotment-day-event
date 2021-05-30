@@ -175,6 +175,8 @@ From line 97, column 1; to line 97, column 8
 
 Fix: Placed footer inside body.
 
+CSS ()
+
 
 - Unfixed Bugs
 
