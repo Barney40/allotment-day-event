@@ -38,6 +38,7 @@ h2 {
     font-size: 80%;
     letter-spacing: 3px;
     text-align: center;
+    padding-left: 0;
 }
 
 #menu li {
@@ -141,7 +142,7 @@ td {
 footer {
     display: inline-block;
     width: 100%;
-    text-align: center;
+    text-align: right;
 }
 
 footer span {
