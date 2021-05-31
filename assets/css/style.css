@@ -93,31 +93,36 @@ h2 {
 
 /* table */
 
+.schedule {
+    display: flex;
+}
+
 .schedule div {
     display: inline-block;
 }
 
 #table {
     width: 700px;
+    padding-right: 20px;
 }
 
-table tr td p {
+#table tr td p {
     margin-top: 0px;
     margin-bottom: 0px;
 }
 
-tr {
+#table tr {
     display: grid;
     grid-template-columns: 0.6fr 1fr 1.5fr;
 }
 
-tr,
+#table tr,
 td,
 th {
     text-align: left;
 }
 
-th,
+#table th,
 td {
     border: 1px solid #cd853f;
     padding: 5px;
@@ -125,11 +130,11 @@ td {
 
 /* videos */
 
-#videos {
+.videos {
     width: 400px;
-    display: inline;
-    float: right;
-}
+    padding-left: 60px;
+ }
+
 
 /* footer styling */
 
