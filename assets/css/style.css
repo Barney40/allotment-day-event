@@ -9,7 +9,7 @@ body {
     font-weight: 300;
     color: #9acd32;
     padding: 10px;
-    
+
 }
 
 h1,
@@ -139,6 +139,11 @@ td {
     padding-left: 60px;
 }
 
+#video-container {
+    text-align: center;
+    display: inline-block;
+}
+
 /* footer styling */
 
 footer {
@@ -227,12 +232,12 @@ legend {
 
 input[type=text] {
     border: 2px solid #cd853f;
-    border-radius: 4px;    
+    border-radius: 4px;
 }
 
 input[type=email] {
     border: 2px solid #cd853f;
-    border-radius: 4px;    
+    border-radius: 4px;
 }
 
 #details-container {
@@ -241,7 +246,11 @@ input[type=email] {
 }
 
 #details-container div {
-    display: inline-block;  
+    display: inline-block;
+}
+
+#smaller-screen {
+    display: none;
 }
 
 input:hover {
@@ -358,8 +367,53 @@ h4 {
 }
 
 /* Media queries */
-/* for larger to medium screens size from 1150px wide and down */
-@media screen and (max-width: 1150px) {
+/* for larger to medium screens size from 1115px wide and down */
 
-    #videos,
-    #table {}
+@media screen and (max-width: 1115px) {
+    footer span {
+        width: 100%;
+    }
+
+    .social-media {
+        text-align: center;
+    }
+
+    #videos-container {
+        text-align: left;
+    }
+
+    .speaker-container {
+        width: 100%;
+    }
+
+    #smaller-screen {
+        display: inline-block;
+    }
+
+    .larger-screen {
+        display: none;
+    }
+
+    
+    
+}
+
+/* for medium to small screens size from px wide and down */
+
+@media screen and (max-width: 800px) {
+    .schedule {
+        float: left;        
+    } 
+
+    .videos {
+        
+    }
+
+    
+    
+       
+    }
+        
+        
+    
+}
