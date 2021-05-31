@@ -187,17 +187,19 @@ img {
 
 /* speaker page styling */
 
-
-
-.speaker-info {
-    padding-left: 20px;
-    margin: 0px;
+.container {
+    display: inline-block;
 }
 
-.speaker-container {
+.container div {
     display: flex;
     padding-bottom: 10px;
     width: 50%;
+}
+
+.container div p {
+    padding-left: 20px;
+    margin: 0px;
 }
 
 /* register form */
@@ -228,6 +230,10 @@ input[type=email] {
     border: 2px solid #cd853f;
     border-radius: 4px;
     width: 30%
+}
+
+#details-container div {
+    width: 100%;
 }
 
 input:hover {
