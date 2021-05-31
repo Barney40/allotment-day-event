@@ -77,17 +77,18 @@ h2 {
     text-decoration: underline;
 }
 
-#register {
+#link-register {
     display: inline-block;
+
 }
 
-#register a button {
+#link-register a button {
     color: #006400;
     background-color: white;
     border-color: #006400;
 }
 
-#register a button:hover {
+#link-register a button:hover {
     background-color: #c0ec68;
 }
 
@@ -237,8 +238,7 @@ input[type=email] {
 }
 
 #details-container div {
-    display: inline-block;
-    
+    display: inline-block;  
 }
 
 input:hover {
