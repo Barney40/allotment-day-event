@@ -133,8 +133,7 @@ td {
 .videos {
     width: 400px;
     padding-left: 60px;
- }
-
+     }
 
 /* footer styling */
 
@@ -188,23 +187,17 @@ img {
 
 /* speaker page styling */
 
+
+
 .speaker-info {
-    padding-left: 10px;
-    display: flex;
-    vertical-align: top;
+    padding-left: 20px;
+    margin: 0px;    
 }
 
 .speaker-container {
     display: flex;
     padding-bottom: 10px;
-}
-
-.speaker-container-left {
-    width: 50%;
-}
-
-.speaker-container-right {
-    width: 50%;
+    width: 50%;    
 }
 
 /* register form */
