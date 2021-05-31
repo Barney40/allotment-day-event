@@ -203,10 +203,8 @@ img {
 /* register form */
 
 .form {
-    display: flex;
     margin-left: auto;
     margin-right: auto;
-    text-align: left;
     width: 65%;
 }
 
