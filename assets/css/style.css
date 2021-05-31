@@ -187,17 +187,17 @@ img {
 
 /* speaker page styling */
 
-.container {
+.speaker-container {
     display: inline-block;
     width: 49%;
 }
 
-.container div {
+.speaker-container div {
     display: flex;
     padding-bottom: 10px;
 }
 
-.container div p {
+.speaker-container div p {
     padding-left: 20px;
     padding-right: 20px;
     margin: 0px;
@@ -223,18 +223,22 @@ legend {
 
 input[type=text] {
     border: 2px solid #cd853f;
-    border-radius: 4px;
-    width: 30%
+    border-radius: 4px;    
 }
 
 input[type=email] {
     border: 2px solid #cd853f;
-    border-radius: 4px;
-    width: 30%
+    border-radius: 4px;    
+}
+
+#details-container {
+    display: inline-block;
+    width: 100%;
 }
 
 #details-container div {
-    width: 100%;
+    display: inline-block;
+    
 }
 
 input:hover {
