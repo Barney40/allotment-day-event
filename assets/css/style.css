@@ -185,10 +185,21 @@ img {
 
 .speaker-info {
     padding-left: 10px;
-    position: absolute;
-    display: inline-block;
-    width: 288px;
-    margin-top: 0px;
+    display: flex;
+    vertical-align: top;
+}
+
+.speaker-container {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.speaker-container-left {
+    width: 50%;
+}
+
+.speaker-container-right {
+    width: 50%;
 }
 
 /* register form */
