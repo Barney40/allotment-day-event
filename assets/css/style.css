@@ -393,27 +393,33 @@ h4 {
     .larger-screen {
         display: none;
     }
-
-    
-    
 }
 
 /* for medium to small screens size from px wide and down */
 
 @media screen and (max-width: 800px) {
     .schedule {
-        float: left;        
-    } 
-
-    .videos {
-        
+        display: inline-block;
     }
 
-    
-    
-       
+    #table {
+        width: auto;
     }
-        
-        
-    
+
+    .form {
+        width: 100%;
+    }
+
+
+
+
+}
+
+
+
+
+}
+
+
+
 }
