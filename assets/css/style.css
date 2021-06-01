@@ -395,7 +395,7 @@ h4 {
     }
 }
 
-/* for medium to small screens size from px wide and down */
+/* for medium to small screens size from 800px wide and down */
 
 @media screen and (max-width: 800px) {
     .schedule {
@@ -409,7 +409,24 @@ h4 {
     .form {
         width: 100%;
     }
+}
 
+/* for small screens size from 570px wide and down */
+
+@media screen and (max-width: 570px) {
+    .videos {
+        padding-left: 10px;
+    }
+
+   .speaker-container div {
+       display: inline-block;            
+   }
+
+   .speaker-container div p {
+       padding-left: 0px;
+   }
+
+   
 
 
 
@@ -418,8 +435,5 @@ h4 {
 
 
 
-}
 
 
-
-}
