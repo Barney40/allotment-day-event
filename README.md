@@ -155,14 +155,11 @@ Text not allowed in element iframe in this context. (4) - see error 1 above
 
 Re-validated:
 5		Parse Error * { margin: 0; padding: 0px; border: none; } No fix.
- 
-- Unfixed Bugs - none
 
-- Deployment
+Deployed URL - https://barney40.github.io/allotment-day-event/ 
+GitHub URL -  https://github.com/Barney40/allotment-day-event
 
-- Screenshots of Project
-
-Credits
+Credit
 - Content - References (no direct copying of code)
 https://www.w3schools.com/cssref/pr_tab_table_layout.asp
 https://stackoverflow.com/questions/8097744/how-do-i-center-this-form-in-css
