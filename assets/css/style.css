@@ -85,13 +85,13 @@ h2 {
 
 }
 
-#link-register a button {
+#link-register button {
     color: #006400;
     background-color: white;
     border-color: #006400;
 }
 
-#link-register a button:hover {
+#link-register button:hover {
     background-color: #c0ec68;
 }
 
@@ -139,7 +139,7 @@ td {
     padding-left: 60px;
 }
 
-#video-container {
+.video-container {
     text-align: center;
     display: inline-block;
 }
@@ -182,7 +182,6 @@ footer div p {
     margin: 1px;
     margin-left: 35px;
     margin-right: 35px;
-    margin-block-end: auto;
     color: #006400;
     margin-top: 24px;
 }
@@ -240,16 +239,16 @@ input[type=email] {
     border-radius: 4px;
 }
 
-#details-container {
+.details-container {
     display: inline-block;
     width: 100%;
 }
 
-#details-container div {
+.details-container div {
     display: inline-block;
 }
 
-#smaller-screen {
+.smaller-screen {
     display: none;
 }
 
@@ -323,7 +322,7 @@ h4 {
     color: #cd853f;
 }
 
-#icon {
+.icon {
     color: #cd853f;
 }
 

@@ -37,7 +37,7 @@
             <h2>Registration Form</h2>
             <fieldset>
                 <legend>Your Details</legend>
-                <div id="details-container">
+                <div class="details-container">
                     <div>
                         <p>
                             <label for="name">Name:</label>
@@ -51,7 +51,7 @@
                         </p>
                     </div>
                 </div>
-                <div id="details-container">
+                <div class="details-container">
                     <div>
                         <label for="address1">Address:</label>
                         <input type="text" id="address1" name="address line 1" required>
@@ -75,13 +75,13 @@
                     <label for="postcode">Postcode:</label>
                     <input type="text" id="postcode" name="postcode" required>
                 </p>
-                <div id="smaller-screen">
+                <div class="smaller-screen">
                     <p>
                         <label for="email">Email:</label>
                         <input type="email" id="email" name="email" required>
                     </p>
                 </div>
-                <div id="smaller-screen">
+                <div class="smaller-screen">
                     <label for="telephone">Telephone:</label>
                     <input type="text" id="telephone" name="telephone" required>
                 </div>
@@ -141,7 +141,7 @@
             <fieldset id="contact">
                 <legend>Contact Preference</legend>
                 <p>
-                    <label for="contact">I would like to be contacted regarding any future related events:</label>
+                    I would like to be contacted regarding any future related events:
                 </p>
                 <p>
                     <label for="yes">Yes</label>
@@ -151,20 +151,18 @@
                     <label for="no">No</label>
                     <input type="radio" name="no" value="no" id="no">
                 </p>
-                <p>
-                    <label for="contact-method">Preferred method of contact (select from drop-down menu):</label>
-                    <select name="contact-method" id="contact-method" required>
-                        <option value="" select>Select</option>
-                        <option value="email">Email</option>
-                        <option value="telephone">Telephone</option>
-                        <option value="Post">Post</option>
-                </p>
+                <label for="contact-method">Preferred method of contact (select from drop-down menu):</label>
+                <select name="contact-method" id="contact-method" required>
+                    <option value="">Select</option>
+                    <option value="email">Email</option>
+                    <option value="telephone">Telephone</option>
+                    <option value="Post">Post</option>
                 </select>
             </fieldset>
             <br>
         </form>
         <div class="button">
-            <button type="submit" type="reset" id="register"><strong>Register</strong></button>
+            <button type="submit" id="register"><strong>Register</strong></button>
         </div>
     </div>
     <footer>
