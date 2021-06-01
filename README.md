@@ -95,7 +95,7 @@ Duplicate ID telephone.
 3. Error: Duplicate ID icon. Fix: Id's replaced with class.
 
 Re-validated:
-Errors (4) · Hide all errors · Show all errors
+Errors (4) 
 Text not allowed in element iframe in this context. (4)
 
 - 'style.css'
