@@ -1,5 +1,10 @@
 Free Day Event For Allotment Beginners
 
+Project Screenshots - /workspace/allotment-day-event/project.screenshots.docx
+Project Testing Info - /workspace/allotment-day-event/validator-testing.docx
+Project Wireframes - /workspace/allotment-day-event/wireframes-allotment-event.bmpr
+
+
 Having recently taken on an allotment I know first-hand how daunting it is. The internet provides an overwhelming 
 amount of information and although advice from other allotment holders is welcome it can be difficult to know
 just how to get started and plan for that first year. My site advertises a day event for allotment beginners

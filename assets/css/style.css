@@ -9,7 +9,6 @@ body {
     font-weight: 300;
     color: #9acd32;
     padding: 10px;
-
 }
 
 h1,
@@ -24,6 +23,69 @@ h2 {
     letter-spacing: 3px;
     color: #cd853f;
     text-align: center;
+}
+
+/* footer styling */
+
+footer {
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+}
+
+footer span {
+    text-align: center;
+    color: #006400;
+    margin-top: 50px;
+    float: left;
+}
+
+footer div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: baseline;
+}
+
+footer div p {
+    margin-bottom: 3px;
+}
+
+/* speaker images */
+
+img {
+    width: 288px;
+    height: 192px;
+}
+
+/* Register Form */
+
+fieldset {
+    border-color: #cd853f;
+    border-radius: 4px;
+}
+
+legend {
+    font-weight: bold;
+    color: #cd853f;
+}
+
+input[type=text] {
+    border: 2px solid #cd853f;
+    border-radius: 4px;
+}
+
+input[type=email] {
+    border: 2px solid #cd853f;
+    border-radius: 4px;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+h4 {
+    color: #cd853f;
 }
 
 /* title */
@@ -144,32 +206,6 @@ td {
     display: inline-block;
 }
 
-/* footer styling */
-
-footer {
-    display: inline-block;
-    width: 100%;
-    text-align: right;
-}
-
-footer span {
-    text-align: center;
-    color: #006400;
-    margin-top: 50px;
-    float: left;
-}
-
-footer div {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: baseline;
-}
-
-footer div p {
-    margin-bottom: 3px;
-}
-
 /* social media links */
 
 .social-media>li {
@@ -184,13 +220,6 @@ footer div p {
     margin-right: 35px;
     color: #006400;
     margin-top: 24px;
-}
-
-/* speaker images */
-
-img {
-    width: 288px;
-    height: 192px;
 }
 
 /* speaker page styling */
@@ -217,26 +246,6 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 60%;
-}
-
-fieldset {
-    border-color: #cd853f;
-    border-radius: 4px;
-}
-
-legend {
-    font-weight: bold;
-    color: #cd853f;
-}
-
-input[type=text] {
-    border: 2px solid #cd853f;
-    border-radius: 4px;
-}
-
-input[type=email] {
-    border: 2px solid #cd853f;
-    border-radius: 4px;
 }
 
 .details-container {
@@ -312,14 +321,6 @@ label {
     text-align: left;
     width: 65%;
     height: 300px;
-}
-
-h3 {
-    text-decoration: underline;
-}
-
-h4 {
-    color: #cd853f;
 }
 
 .icon {
